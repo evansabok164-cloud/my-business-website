@@ -87,4 +87,9 @@ button {
     padding: 20px;
     margin-bottom: 15px;
     border-radius: 8px;
+}.contact {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
 }
