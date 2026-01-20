@@ -1,4 +1,4 @@
-body {
+5body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f4f4f4;
@@ -92,4 +92,16 @@ button {
     color: white;
     padding: 40px 20px;
     text-align: center;
+}.gallery {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    border-radius: 10px;
 }
