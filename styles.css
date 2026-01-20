@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* NAVBAR */
+.navbar {
+    background: black;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* MAIN SECTION */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 2.2rem;
+}
+
+.container p {
+    font-size: 1.2rem;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    background: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* SERVICES */
+.services {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-box {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
